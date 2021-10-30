@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav img{
+    background-color: white;
+    width:250px ;
+}
+
+.navbar{
+    background-color: rgb(54, 53, 53);
+    padding: 10px 3px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.image img{
+    width: 700px;
+    height: 400px;   
+}
+
+.content1{
+    width: 100%;
+    height: fit-content;
+}
+.image{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#img2{
+    display: none;
+}
+
+.image:hover #img1{
+    display: none;
+}
+
+.image:hover #img2{
+    display: block;
+}
+
+.content1{
+    background-color: rgb(33, 59, 57);
+    padding-bottom: 20px;
+}
+
+.content1 .teks p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+
+.content1 .teks2 p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+}
+
+.content2 img{
+    width: 150px;
+    margin: 50px 70px 10px 70px;
+}
+
+.content2 .imagerow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 .imagerow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color:  rgb(54, 53, 53);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.social img{
+    width: 50px;
+}
+
+.green{
+    color: rgb(67, 218, 67);
+}
+
+.form_register{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_register input{
+    margin-top: 10px;
+}
+
+.register{
+    width: 50%;
+    margin-left: 20px;
+    padding: 30px 0 82px 0;
+}
+
+.form_register label{
+    margin-top: 10px;
+}
+
+.form_register select{
+    margin-top: 10px;
+}
+
+.register button{
+    margin-top: 10px;
+}
+
+.agreement{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
